@@ -1,0 +1,25 @@
+.ChallengeWinner {
+  background-color: rgb(246, 220, 189);
+  border-radius: 20px;
+  width: 313px;
+  height: 329px;
+  margin-left: 210px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.WinnerIcon {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -90px;
+  z-index: 0;
+}
+
+.RecipeTitle {
+  font-size: 12px;
+  font-family: "Vice City Sans", sans-serif;
+  margin: 0px 0px 0px 100px;
+  width: 95px;
+  height: 48px;
+  overflow: hidden;
+}

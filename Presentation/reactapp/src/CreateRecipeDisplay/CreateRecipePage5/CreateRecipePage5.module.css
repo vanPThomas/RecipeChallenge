@@ -1,0 +1,10 @@
+.Headers {
+  color: rgb(35, 174, 234);
+  text-align: center;
+  height: 100%;
+}
+
+.Headers h1,
+.Headers h3 {
+  margin-top: 150px;
+}

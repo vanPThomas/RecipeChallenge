@@ -1,0 +1,67 @@
+.SelectorDiv {
+    margin: 75px 100px 0px 100px;
+}
+
+.SelectorAndButton {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+}
+
+.AddButton {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    width: 100px;
+}
+
+.AddButton:hover, .AddButton:hover:active, .AddButton:focus{
+    outline: none;
+    border: none;
+}
+.AddButton:focus:active, .SelectorAndButton:active {
+    outline: none;
+    border: none;
+    background-color: rgb(120, 120, 120)
+}
+
+.PrizesLabel {
+    font-size: x-large;
+    font-family: 'Vice City Sans', sans-serif;
+    color: rgb(35, 174, 234);
+    margin-right: 25px;
+}
+
+.PrizeSelection {
+    box-shadow: rgba(50, 50, 93, 0.05) 0px 10px 30px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: x-large;
+    font-family: 'Vice City Sans', sans-serif;
+    background-color: rgb(219, 219, 219);
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    border: 0;
+    outline: none;
+}
+
+.PrizeSelection:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 45px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.PrizeCardDiv {
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.AddedPrizeCard {
+    margin-left: 15px;
+    width: 150px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+

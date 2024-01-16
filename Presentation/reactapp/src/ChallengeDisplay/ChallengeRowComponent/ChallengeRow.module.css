@@ -1,0 +1,72 @@
+.ChallengeRow {
+  margin: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 200px;
+  border-radius: 50px;
+  height: 438px;
+  width: 150vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.MainContainer {
+  transform: translateX(0);
+  transition: ease-in-out 0.5s;
+}
+
+.ChallengeBackgroundInfo {
+  background-color: white;
+  border-radius: 50px;
+  width: 313px;
+  height: 329px;
+  margin-left: -150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Overlay {
+  border-radius: 50px;
+  width: 313px;
+  height: 329px;
+}
+
+.ChallengeDescriptionPosition {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ChallengeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+.ChallengeDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 0px;
+  max-height: 75%;
+  width: 100%;
+  text-align: left;
+}
+
+.LeftClick {
+  transform: translateX(-100px);
+  transition: ease-in-out 0.5s;
+}
+
+.RightClick {
+  transform: translateX(100px);
+  transition: ease-in-out 0.5s;
+}

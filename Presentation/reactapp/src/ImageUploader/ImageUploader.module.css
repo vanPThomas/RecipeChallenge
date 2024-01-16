@@ -1,0 +1,19 @@
+.dropzoneStyles {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.imageStyles {
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+.ChallengeButton {
+    width: 189px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgb(5, 135, 199);
+    font-size: larger;
+    margin-top: 25px;
+}

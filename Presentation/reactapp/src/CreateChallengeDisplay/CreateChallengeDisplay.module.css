@@ -1,0 +1,14 @@
+.CreateChallengeDisplay {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 85px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateChallengeDisplay h1 {
+    text-align: center;
+    color: rgb(35, 174, 234);
+}

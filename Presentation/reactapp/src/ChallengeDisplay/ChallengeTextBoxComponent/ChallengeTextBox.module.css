@@ -1,0 +1,9 @@
+.ChallengeTextBox {
+  width: 175px;
+  height: 48px;
+  margin-top: -10px;
+  margin-left: 25px;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: "Vice City Sans", sans-serif;
+}

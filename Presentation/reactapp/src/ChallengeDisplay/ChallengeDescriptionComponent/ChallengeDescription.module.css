@@ -1,0 +1,17 @@
+.h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  margin: 5px 25px;
+}
+
+.p1,
+.p2 {
+  white-space: normal;
+  font-family: "Vice City Sans", sans-serif;
+  font-size: 22px;
+  margin: 5px 25px 10px 25px;
+}
+
+.p2 {
+  margin: 5px 25px 10px 25px;
+}

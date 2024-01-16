@@ -1,0 +1,92 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.likeThumb {
+  margin-bottom: 5px;
+  z-index: 0;
+  transition: ease 0.3s;
+  scale: calc(120%);
+}
+
+.likeThumb:hover {
+  transform: rotate(10deg) translateY(-10px);
+  transition: ease 0.3s;
+}
+
+.dislikeThumb {
+  margin-top: 5px;
+  z-index: 0;
+  transition: ease 0.3s;
+}
+
+.dislikeThumb:hover {
+  transform: rotate(10deg) translateY(10px);
+  transition: ease 0.3s;
+}
+
+.RecipeMainContainer {
+  width: 282px;
+  height: 306px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+  transition: ease 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  z-index: 1;
+  transform: translateY(0);
+  transition: ease 0.4s;
+}
+
+.RecipeMainContainer:hover {
+  scale: calc(120%);
+  transform: rotate(3deg);
+  transition: ease 0.3s;
+}
+
+.RecipeThumbnailContainer {
+  height: 70%;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px black solid;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.RecipeThumbnail {
+  width: 198;
+  height: auto;
+}
+
+.RecipeInfo {
+  width: 100%;
+  margin: 3px 5px 3px 10px;
+  font-size: small;
+  font-family: "Vice City Sans", sans-serif;
+}
+
+.RecipeInfo h4,
+.RecipeInfo p {
+  margin: 0;
+}
+
+.Like {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: ease-in-out 0.4s;
+}
+
+.Dislike {
+  transform: translateY(200px);
+  opacity: 0;
+  transition: ease-in-out 0.4s;
+}
+
+.MoveRight {
+  opacity: 0;
+  transform: translateX(250px);
+  transition: ease-in-out 0.1s;
+}

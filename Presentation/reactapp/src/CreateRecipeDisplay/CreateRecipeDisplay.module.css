@@ -1,0 +1,16 @@
+.CreateRecipeDisplay {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 85px;
+  width: 50vw;
+  min-height: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.RecipeDiv {
+  display: flex;
+  justify-content: center;
+}

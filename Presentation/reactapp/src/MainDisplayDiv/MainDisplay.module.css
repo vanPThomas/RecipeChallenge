@@ -1,0 +1,9 @@
+.MainDisplay {
+    width: 100vw;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    overflow: visible;
+}
